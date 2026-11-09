@@ -825,3 +825,18 @@ footer { background: #080d18; border-top: 1px solid var(--border-color); color: 
 
 #about .about-image { width: 330px; height: 330px; border-radius: 50% !important; object-fit: cover; object-position: center 27%; border: 5px solid rgba(165,154,255,.55); box-shadow: 0 0 0 10px rgba(139,124,255,.08), 0 24px 60px rgba(0,0,0,.35); }
 @media (max-width: 767.98px) { #about .about-image { width: min(78vw, 300px); height: min(78vw, 300px); } }
+
+/* About section story and acknowledgement panel */
+#about .about-content { max-width: 720px; }
+#about .about-kicker { display: inline-block; color: #b9b0ff; font-size: .75rem; font-weight: 700; letter-spacing: .16em; margin-bottom: .8rem; }
+#about .about-content h3 { font-size: clamp(1.65rem, 3vw, 2.25rem); line-height: 1.2; }
+#about .about-content > p { line-height: 1.8; }
+#about .about-gratitude { margin-top: 1.5rem; padding: 1.25rem 1.4rem; border: 1px solid rgba(165,154,255,.22); border-left: 3px solid var(--primary); border-radius: .85rem; background: linear-gradient(120deg, rgba(139,124,255,.11), rgba(18,30,50,.75)); }
+#about .about-gratitude h4 { color: #e4e0ff; font-size: 1rem; font-weight: 700; margin-bottom: .55rem; }
+#about .about-gratitude h4 i { color: #b9b0ff; }
+#about .about-gratitude p { color: #b8c4d6; font-size: .95rem; line-height: 1.75; }
+#about .about-detail { display: flex; flex-direction: column; gap: .2rem; padding: .9rem 1rem; border: 1px solid var(--border-color); border-radius: .75rem; background: #131f33; }
+#about .about-detail span { color: #9ba9bd; font-size: .78rem; }
+#about .about-detail strong { color: #f8fafc; font-size: .95rem; }
+#contact .contact-link { color: #aebbd0 !important; text-decoration: none; transition: color .2s ease; }
+#contact .contact-link:hover { color: #b9b0ff !important; text-decoration: underline; }
